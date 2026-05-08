@@ -2,7 +2,7 @@
   "name": "DJ Life Reset",
   "short_name": "DJ Reset",
   "description": "App de hábitos gamificada para productor musical y DJ",
-  "start_url": "/dj-life-reset/",
+  "start_url": "/",
   "display": "standalone",
   "background_color": "#080c14",
   "theme_color": "#080c14",
