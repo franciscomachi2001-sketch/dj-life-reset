@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@400;600;700&display=swap');
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg: #080c14;
+  --surface: #0d1220;
+  --surface2: #111827;
+  --border: #1e2d45;
+  --border2: #243452;
+  --accent: #00c3ff;
+  --accent2: #ff3d7f;
+  --gold: #f0a500;
+  --green: #00e5a0;
+  --purple: #9b59ff;
+  --text: #e8eaf0;
+  --text2: #8892a4;
+  --text3: #4a5568;
+}
+
+html, body, #root {
+  height: 100%;
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Rajdhani', sans-serif;
+}
+
+body {
+  overscroll-behavior: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 2px; }

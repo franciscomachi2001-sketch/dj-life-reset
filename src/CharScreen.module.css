@@ -1,0 +1,39 @@
+.wrap { padding: 0 0 1rem; }
+.secTitle {
+  font-family: 'Orbitron', monospace;
+  font-size: 7px; color: #8892a4; margin-bottom: 8px; letter-spacing: 2px;
+  text-align: center;
+}
+.attrs {
+  display: grid; grid-template-columns: repeat(2, 1fr);
+  gap: 6px; margin-bottom: 14px;
+}
+.attrCard {
+  background: #0d1220; border: 0.5px solid #1e2d45;
+  border-radius: 8px; padding: 8px 10px;
+}
+.attrName { font-size: 11px; color: #8892a4; margin-bottom: 3px; }
+.attrVal { font-family: 'Orbitron', monospace; font-size: 13px; margin-bottom: 4px; font-weight: 700; }
+.barBg { height: 5px; background: #111827; border-radius: 4px; overflow: hidden; border: 0.5px solid #1e2d45; }
+.barFill { height: 100%; border-radius: 4px; transition: width 0.5s; }
+
+.evolList { display: flex; flex-direction: column; gap: 5px; margin-bottom: 16px; }
+.evolItem {
+  display: flex; align-items: center; gap: 8px;
+  padding: 8px 10px; border-radius: 8px;
+  border: 0.5px solid #1e2d45; background: #0d1220;
+}
+.reached { border-color: #00e5a044; background: #00e5a008; }
+.current { border: 1.5px solid #00c3ff; }
+.evolName { font-size: 14px; font-weight: 600; color: #e8eaf0; }
+.evolDesc { font-size: 11px; color: #8892a4; }
+.evolLvl { font-family: 'Orbitron', monospace; font-size: 6px; color: #8892a4; white-space: nowrap; }
+
+.resetBtn {
+  width: 100%; padding: 10px;
+  background: transparent; border: 0.5px solid #ff3d7f55;
+  border-radius: 8px; color: #ff3d7f;
+  font-family: 'Rajdhani', sans-serif; font-size: 14px; font-weight: 600;
+  cursor: pointer; transition: background 0.15s;
+}
+.resetBtn:hover { background: #ff3d7f11; }

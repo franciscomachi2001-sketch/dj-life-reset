@@ -1,0 +1,24 @@
+.nav {
+  position: fixed; bottom: 0; left: 0; right: 0;
+  display: grid; grid-template-columns: repeat(4, 1fr);
+  background: #080c14;
+  border-top: 0.5px solid #1e2d45;
+  padding: 6px 0 env(safe-area-inset-bottom, 6px);
+  z-index: 100;
+}
+.tab {
+  display: flex; flex-direction: column; align-items: center; gap: 2px;
+  padding: 6px 4px;
+  background: transparent; border: none; cursor: pointer;
+  transition: opacity 0.15s;
+  opacity: 0.5;
+}
+.tab:active { opacity: 0.8; }
+.activeTab { opacity: 1; }
+.tabIcon { font-size: 18px; color: #e8eaf0; line-height: 1; }
+.activeTab .tabIcon { color: #00c3ff; }
+.tabLabel {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 10px; font-weight: 600; color: #8892a4;
+}
+.activeTab .tabLabel { color: #00c3ff; }
