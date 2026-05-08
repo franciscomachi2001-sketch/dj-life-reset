@@ -1,0 +1,24 @@
+.wrap{padding:0 0 1rem;}
+.header{background:#0c1018;border:0.5px solid #1c2535;border-radius:10px;padding:10px 14px;margin-bottom:8px;}
+.headerTitle{font-family:'Cinzel',serif;font-size:10px;color:#eef0f8;letter-spacing:1px;}
+.headerSub{font-size:12px;color:#8892aa;margin-top:3px;}
+.hint{font-size:12px;color:#3d4a60;margin-bottom:12px;padding:0 2px;line-height:1.5;}
+.qCat{font-size:10px;color:#3d4a60;letter-spacing:1px;text-transform:uppercase;margin:8px 0 3px;display:flex;align-items:center;gap:6px;}
+.qLine{flex:1;height:0.5px;background:#1c2535;}
+.qitem{display:flex;align-items:center;gap:9px;padding:10px 11px;background:#0c1018;border:0.5px solid #1c2535;border-radius:8px;cursor:pointer;transition:all 0.2s;margin-bottom:4px;}
+.qitem:active{opacity:0.8;}
+.qOff{opacity:0.4;}
+.toggle{width:34px;height:18px;border-radius:9px;background:#1c2535;border:0.5px solid #263045;flex-shrink:0;position:relative;transition:background 0.2s;}
+.toggleOn{background:#b48cff33;border-color:#b48cff88;}
+.toggleThumb{position:absolute;top:2px;left:2px;width:14px;height:14px;border-radius:50%;background:#3d4a60;transition:all 0.2s;}
+.toggleOn .toggleThumb{left:18px;background:#b48cff;}
+.qIcon{font-size:16px;flex-shrink:0;}
+.qInfo{flex:1;min-width:0;}
+.qName{font-size:13px;font-weight:600;color:#eef0f8;line-height:1.3;}
+.qMeta{font-size:11px;color:#8892aa;margin-top:1px;}
+.qxp{font-family:'Cinzel',serif;font-size:6px;padding:3px 6px;border-radius:4px;white-space:nowrap;border:0.5px solid;transition:all 0.2s;}
+.nextWrap{margin-top:14px;padding:10px 12px;background:#b48cff08;border:0.5px solid #b48cff33;border-radius:8px;}
+.nextTitle{font-family:'Cinzel',serif;font-size:8px;color:#b48cff;margin-bottom:8px;letter-spacing:1px;}
+.nextItem{display:flex;align-items:center;gap:7px;padding:5px 0;border-bottom:0.5px solid #1c2535;}
+.nextItem:last-child{border-bottom:none;}
+.newBadge{font-family:'Cinzel',serif;font-size:6px;padding:2px 5px;border-radius:3px;background:#b48cff22;color:#b48cff;border:0.5px solid #b48cff44;white-space:nowrap;flex-shrink:0;}

@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Rajdhani:wght@400;600;700&display=swap');
+*{box-sizing:border-box;margin:0;padding:0;}
+:root{
+  --bg:#07090f;--surf:#0c1018;--surf2:#111620;--bord:#1c2535;--bord2:#263045;
+  --acc:#b48cff;--acc2:#ff4d8d;--gold:#f5c542;--cyan:#00d4ff;--green:#00e5a0;
+  --text:#eef0f8;--text2:#8892aa;--text3:#3d4a60;
+}
+html,body,#root{height:100%;background:var(--bg);color:var(--text);font-family:'Rajdhani',sans-serif;}
+body{overscroll-behavior:none;-webkit-tap-highlight-color:transparent;}
+::-webkit-scrollbar{width:3px;}
+::-webkit-scrollbar-thumb{background:var(--bord2);border-radius:2px;}

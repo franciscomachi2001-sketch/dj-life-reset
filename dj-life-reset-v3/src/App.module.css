@@ -1,0 +1,7 @@
+.root{min-height:100dvh;display:flex;flex-direction:column;max-width:480px;margin:0 auto;}
+.content{flex:1;padding:12px 12px 82px;overflow-y:auto;}
+.toast{position:fixed;top:14px;right:14px;font-family:'Cinzel',serif;font-size:8px;line-height:1.8;padding:8px 12px;border-radius:8px;border:1px solid;z-index:300;max-width:220px;animation:slideIn 0.2s ease;pointer-events:none;}
+.toast_xp{background:#b48cff15;color:#b48cff;border-color:#b48cff55;}
+.toast_lvl{background:#f5c54215;color:#f5c542;border-color:#f5c54255;}
+.toast_warn{background:#ff4d8d15;color:#ff4d8d;border-color:#ff4d8d55;}
+@keyframes slideIn{from{opacity:0;transform:translateY(-8px);}to{opacity:1;transform:translateY(0);}}
